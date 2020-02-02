@@ -23,3 +23,5 @@ target_include_directories (restarter PUBLIC
     "${CMAKE_CURRENT_SOURCE_DIR}"
     "${CMAKE_CURRENT_BINARY_DIR}"
 )
+find_package (Threads)
+target_link_libraries (restarter ${CMAKE_THREAD_LIBS_INIT})
