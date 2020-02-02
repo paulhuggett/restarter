@@ -1,0 +1,7 @@
+#ifndef CONFIG_HPP
+#define CONFIG_HPP
+
+// Enable trace output?
+#cmakedefine TRACE_ENABLED  1
+
+#endif // CONFIG_HPP
